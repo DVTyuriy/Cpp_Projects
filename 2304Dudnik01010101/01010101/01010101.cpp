@@ -1,9 +1,12 @@
 ﻿#include <iostream>
+#include <Windows.h>
 
 using namespace std;
 
 int main()
 {   //print list questions to the screen
+    SetConsoleCP(1251);
+    //SetConsoleOutputCP(1251);
     cout << "1. Я на майбутній роботі хочу мати справу з документами чи з людьми? (адже це абсолютно різні стилі життя)" << endl;
     cout << "2. Я хочу мати роботу сидячу чи мобільну? (це залежить від характеру)" << endl;
     cout << "3. Я хочу працювати на себе чи на когось? (для багатьох — це важливо)." << endl;
