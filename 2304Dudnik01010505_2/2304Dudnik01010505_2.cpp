@@ -14,7 +14,7 @@ int main()
         commonway += day_way;
         day_way += 0.2f;
     }
-    cout << "The turtle will crawl: "<< commonway<<endl;
+    cout << "The turtle will crawl: "<< commonway <<"m" << endl;
 
     return 0;
 }
