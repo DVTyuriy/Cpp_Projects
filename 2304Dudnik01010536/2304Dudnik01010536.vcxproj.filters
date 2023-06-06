@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="2304Dudnik01010505_2.cpp">
+    <ClCompile Include="2304Dudnik01010536.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
