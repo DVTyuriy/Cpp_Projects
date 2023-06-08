@@ -4,8 +4,10 @@ using namespace std;
 
 int factorial(int num) {
     int rez_fact = 1;
-    for (int i = 1; i <= num; i++) {
-        rez_fact *= i;
+    if (num > 0) {
+        for (int i = 1; i <= num; i++) {
+            rez_fact *= i;
+        }
     }
     return rez_fact;
 }
