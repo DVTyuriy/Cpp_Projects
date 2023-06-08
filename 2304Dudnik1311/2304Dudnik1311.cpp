@@ -14,7 +14,7 @@ int factorial(int num) {
 
 int main()
 {
-    int get_num_student, get_num_seats, free_seats;
+    int get_num_student, get_num_seats;
     long rez_num;
     cout << "Enter number of students: ";
     cin >> get_num_student;
@@ -26,5 +26,6 @@ int main()
     }
     rez_num = factorial(get_num_seats) / factorial(get_num_seats - get_num_student);
     cout << "The variants are stated:  " << rez_num << endl;
+    return 0;
 }
 

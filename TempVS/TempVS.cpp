@@ -84,3 +84,6 @@ int a=rand()%6+11;
 
     */
 }
+
+cout << fixed;
+cout << setprecision(3) << kilometers << "км" << endl;
